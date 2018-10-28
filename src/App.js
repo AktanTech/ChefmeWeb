@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Button} from 'react-bootstrap';
+import {Grid, Row, Col, Button} from 'react-bootstrap';
+import logo from './imags/logo.png'
 import './App.css';
 
 class App extends Component {
@@ -7,7 +8,30 @@ class App extends Component {
     return (
       <div className="App">
         <div id="main"></div>
-        <Button><img src="desayuno.png"/></Button>
+
+        <Grid>
+        <Row>
+            <Col xs={12} md={12}>
+              <div id="logo"></div>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={6}>
+              <Button type="button" className="btnType" id="desayuno"> </Button>
+            </Col>
+            <Col xs={6} md={6}>
+              <Button type="button" className="btnType" id="almuerzo"> </Button>
+            </Col>
+          </Row>
+          <Row>
+            <Col xs={6} md={6}>
+              <Button type="button" className="btnType" id="cena"> </Button>
+            </Col>
+            <Col xs={6} md={6}>
+              <Button type="button" className="btnType" id="antojo"> </Button>
+            </Col>
+          </Row>
+        </Grid>
       </div>
     );
   }
