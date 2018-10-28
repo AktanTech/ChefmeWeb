@@ -4,10 +4,12 @@ import logo from './imags/logo.png'
 import './App.css';
 
 class App extends Component {
+
+  
   render() {
     return (
       <div className="App">
-        <div id="main"></div>
+        <div id="main" href="/"></div>
 
         <Grid>
         <Row>
@@ -17,18 +19,18 @@ class App extends Component {
           </Row>
           <Row>
             <Col xs={6} md={6}>
-              <Button type="button" className="btnType" id="desayuno"> </Button>
+              <Button type="button" className="btnType" id="desayuno" name="desayuno" href="/Home/desayuno"> </Button>
             </Col>
             <Col xs={6} md={6}>
-              <Button type="button" className="btnType" id="almuerzo"> </Button>
+              <Button type="button" className="btnType" id="almuerzo" name="almuerzo" href="/Home/almuerzo"> </Button>
             </Col>
           </Row>
           <Row>
             <Col xs={6} md={6}>
-              <Button type="button" className="btnType" id="cena"> </Button>
+              <Button type="button" className="btnType" id="cena" name="cena" href="/Home/cena"> </Button>
             </Col>
             <Col xs={6} md={6}>
-              <Button type="button" className="btnType" id="antojo"> </Button>
+              <Button type="button" className="btnType" id="antojo" name="antojo" href="/Home/antojo"> </Button>
             </Col>
           </Row>
         </Grid>
