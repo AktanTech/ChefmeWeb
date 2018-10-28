@@ -4,7 +4,7 @@ import {
     Panel, FormControl, Button, Table
 } from 'react-bootstrap';
 import './Results.css';
-import  trash from "./imags/basura.png";
+import  HotCackes from "./imags/hot-cakes.jpg";
 
 class Results extends Component {
     constructor(props, context) {
@@ -27,8 +27,8 @@ class Results extends Component {
                         <Col md={3} xs={12}>
                             <div>
                                 <Panel>
-                                    <Panel.Heading>Panel heading without a title</Panel.Heading>
-                                    <Panel.Body><a href="/Recipe">Link</a></Panel.Body>
+                                    <img src={HotCackes}></img>
+                                    <Panel.Body><a href="/Recipe/HotCackes"><b>Hot Cakes</b></a></Panel.Body>
                                 </Panel>
                             </div>
                         </Col>
