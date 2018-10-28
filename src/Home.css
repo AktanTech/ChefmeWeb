@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+  }
+  
+  .App > h1{
+    color:  orange ;
+    font-weight: bold;
+    font-size: 5em;
+  }
+  
+  .input-ingredient{
+    padding-top: 5em;
+  }
+  
+  .input-ingredient > .container > .row > form > .col-md-3 > button{
+    float: left;
+  }
+  
+  #menu{
+    background-color: white;
+  }
+  
+  
