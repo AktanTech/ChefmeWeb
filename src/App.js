@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <div id="main"></div>
-        <Button><img src="desayuno.png"></img></Button>
+        <Button><img src="desayuno.png"/></Button>
       </div>
     );
   }
